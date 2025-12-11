@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Platyceria | ビカクシダ専門店</title>
+  <title>Platycerium | ビカクシダ専門店</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
@@ -11,7 +11,7 @@
 </head>
 <body>
   <header class="topbar">
-    <div class="logo">Platyceria</div>
+    <div class="logo">Platycerium</div>
     <nav class="nav">
       <a href="#about">コンセプト</a>
       <a href="#products">コレクション</a>
@@ -32,7 +32,11 @@
           <a class="btn ghost" href="#about">ブランドについて</a>
         </div>
       </div>
-      <div class="hero-visual" data-animate>
+      <div class="hero-visual" data-animate data-slide="right">
+        <div class="hero-photo" role="presentation">
+          <img src="https://images.unsplash.com/photo-1521185496955-15097b20c5fe?auto=format&fit=crop&w=1200&q=80" alt="板付けされたビカクシダのディスプレイ">
+          <div class="photo-overlay"></div>
+        </div>
         <div class="floating-card">
           <span class="tag">希少</span>
           <h2>Platycerium grande</h2>
@@ -42,7 +46,6 @@
             <button class="btn small">詳細を見る</button>
           </div>
         </div>
-        <div class="leaf-orbit"></div>
       </div>
     </section>
 
@@ -50,7 +53,7 @@
       <div class="section-head">
         <p class="eyebrow">About</p>
         <h2>余白を活かす、静かな存在感。</h2>
-        <p>Platyceria（プラティセリア）はビカクシダ専門のオンラインストア。器や板付けまでトータルでコーディネートし、住まいに溶け込む佇まいを提案します。</p>
+        <p>Platycerium（プラティセリウム）はビカクシダ専門のオンラインストア。器や板付けまでトータルでコーディネートし、住まいに溶け込む佇まいを提案します。</p>
       </div>
       <div class="pillars">
         <article>
@@ -169,11 +172,29 @@
         </div>
       </div>
     </section>
+
+    <section class="immersive" aria-label="迫力のビカクシダイメージ">
+      <div class="section-head" data-animate>
+        <p class="eyebrow">Immersive</p>
+        <h2>スクロールで迫る、立体的なシルエット。</h2>
+        <p>トップのビジュアルと連動するように、ビカクシダの質感や陰影がスライドインする仕立てにしました。奥行きを感じるワンカットでブランドの空気感を伝えます。</p>
+      </div>
+      <div class="immersive-grid">
+        <figure class="immersive-card" data-animate data-slide="left">
+          <img src="https://images.unsplash.com/photo-1421986527537-888d998adb74?auto=format&fit=crop&w=1200&q=80" alt="スポットライトを受けるビカクシダ">
+          <figcaption>光を受けた質感が空間に立体感を与える。</figcaption>
+        </figure>
+        <figure class="immersive-card" data-animate data-slide="right">
+          <img src="https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?auto=format&fit=crop&w=1200&q=80" alt="深い緑のビカクシダを壁面にディスプレイ">
+          <figcaption>壁面をキャンバスに、陰影をデザインする。</figcaption>
+        </figure>
+      </div>
+    </section>
   </main>
 
   <footer class="footer" id="contact">
     <div class="footer-brand" data-animate>
-      <div class="logo">Platyceria</div>
+      <div class="logo">Platycerium</div>
       <p>静かで洗練された暮らしに寄り添う、ビカクシダ専門店。オンラインで全国配送いたします。</p>
     </div>
     <div class="footer-links" data-animate>
